@@ -1,0 +1,88 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+/* Common-Styles */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+}
+.common-btn{
+    width: 168px;
+    height: 44px;
+    background-color:rgba(224, 44, 109, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{ 
+    padding: 8px 24px 8px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.fas{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin-right: 15px; 
+}
+.common-btn:hover{
+    background-color: coral;
+    transition: .8s;
+}
+
+/* Header-Section */
+.header-container{
+    width: 1348px;
+    height: 677px;
+    background-color: rgba(45, 37, 160, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-txt h1{ 
+    width: 485px;
+    height: 230px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+}
+.banner-img img{
+    width: 556px;
+    height: 438px;
+}
+/* Main-section */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 960px;
+    grid-gap: 27px;
+    background-color: #F3F3F3;
+    padding: 15px;
+}
+.player-img img{
+    width: 100%;
+}
+.player{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+}
+.player-name{
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191Fs;
+}
+.player-about{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
