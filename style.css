@@ -193,9 +193,9 @@ footer img{
     }
     .banner-txt h1 {
         width: 390px;
-        height: 230px;
+        height: 200px;
         color: rgba(255, 255, 255, 1);
-        font-size: 52px;
+        font-size: 47px;
     }
     .container{
         width: 100%;
@@ -203,6 +203,9 @@ footer img{
    .players, .photo-and-video-gallery{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+   }
+   .players{
+       padding: 0;
    }
    .photo-frame{
        width: 100%;
@@ -213,22 +216,76 @@ footer img{
     display: none;
    }
    footer img {
-    width: 301px;
+    width: 250px;
     height: 80px;
     margin-left: 8%;
     margin-top: 100px;
+}
+iframe{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 10px;
 }
 }
 
 /* tablet devices */
 
 @media only screen and (min-width:689px) and (max-width:992px){
-   .container{
-       width: 100%;
-   }
-   .header-container{
-    display: none;
-}
+    .header-container{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding-left: 30px;
+     }
+     .banner-img img {
+         width: 70%;
+         height: 350px;
+     }
+     .banner-txt h1 {
+         width: 390px;
+         height: 200px;
+         color: rgba(255, 255, 255, 1);
+         font-size: 47px;
+     }
+     .container{
+         width: 100%;
+     }
+    .players, .photo-and-video-gallery{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+    }
+    .players{
+        padding: 0;
+    }
+    .photo-frame{
+        width: 100%;
+    }
+    .photo-gallery{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     display: none;
+    }
+    footer img {
+     width: 250px;
+     height: 80px;
+     margin-left: 30%;
+     margin-top: 100px;
+ }
+ iframe{
+     height: 500px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 30px;
+     padding: 10px;
+ }
 
   
 }
