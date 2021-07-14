@@ -30,7 +30,7 @@ a{
 }
 .common-btn:hover{
     background-color: coral;
-    transition: .8s;
+    transition: .6s;
 }
 
 /* Header-Section */
@@ -141,7 +141,38 @@ a{
 .player-detail h3{
     color: orange;
 }
+/* About and contact */
+.about-contact{
+    width: 600px;
+    display: flex;
+    grid-gap: 30px;
+}
+.about{
+    /* background-color: rgba(128, 128, 128, 0.527); */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F3F3F3;
+}
+.about h2{
+    text-align: center;
+}
+.about p{
+    /* text-align: justify; */
+    color: #6C6C6C;
+}
+.contact{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F3F3F3;
 
+}
+.contact h2{
+    text-align: center;
+}
 /* Footer-Section */
 footer{
     display: flex;
@@ -230,6 +261,11 @@ iframe{
     margin-bottom: 30px;
     padding: 10px;
 }
+.about-contact{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 }
 
 /* tablet devices */
@@ -286,6 +322,10 @@ iframe{
      margin-bottom: 30px;
      padding: 10px;
  }
-
+ .about-contact{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
   
 }
